@@ -4,7 +4,7 @@ public class Crypt {
 
 	private static final String pwd = "mandioca";
 
-    public String CryptHexa(String chave) {
+    public String cryptHexa(String chave) {
         String cript = "";
         String b = "";
         String p = "";
@@ -33,7 +33,7 @@ public class Crypt {
         return cript;
     }
 
-    public String DeCryptHexa(String chave) {
+    public String deCryptHexa(String chave) {
         String decript = "";
         String b = "";
         String p = "";

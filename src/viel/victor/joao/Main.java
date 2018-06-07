@@ -5,10 +5,10 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Crypt crypt = new Crypt();
-		String encriptar = crypt.CryptHexa("Ola Senhores");
+		String encriptar = crypt.cryptHexa("Ola Senhores");
 		System.out.println(encriptar);
 		
-		String decriptar = crypt.DeCryptHexa(encriptar);
+		String decriptar = crypt.deCryptHexa(encriptar);
 		System.out.println(decriptar);
 		
 		//   Resultado =>
